@@ -1,0 +1,36 @@
+{
+  "openai_api_key": "YOUR_OPENAI_API_KEY_HERE",
+  "google_maps_api_key": "YOUR_GOOGLE_MAPS_API_KEY_HERE",
+  "mapbox_api_key": "YOUR_MAPBOX_API_KEY_HERE",
+  
+  "ai_model": "gpt-4o-mini",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "system_prompt": "You are Jarvis, a helpful AI assistant for AR glasses. You provide concise, helpful responses and can assist with navigation, information lookup, and general questions. Keep responses brief but informative, suitable for voice interaction.",
+  
+  "speech_language": "en-US",
+  "speech_rate": 1.0,
+  "speech_pitch": 1.0,
+  "speech_volume": 0.8,
+  "wake_words": ["hey jarvis", "jarvis"],
+  
+  "panel_distance": 1.5,
+  "use_body_anchor": true,
+  "fade_duration": 0.3,
+  "max_chat_messages": 50,
+  
+  "use_google_maps": true,
+  "map_width": 512,
+  "map_height": 512,
+  "default_zoom": 15,
+  "map_type": "roadmap",
+  
+  "location_update_interval": 5.0,
+  "location_accuracy": 10.0,
+  "enable_location_services": true,
+  
+  "target_frame_rate": 60,
+  "enable_debug_logs": true,
+  "request_timeout": 30.0,
+  "min_request_interval": 1.0
+}
